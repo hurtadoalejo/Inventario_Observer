@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.inventario.inventarioapp.viewController.InventarioAppViewController">
+   <children>
+      <TabPane prefHeight="405.0" prefWidth="658.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="tab_administradorInventario" style="-fx-font-size: 14px;" text="Administrador Inventario">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane layoutY="-1.0" orientation="VERTICAL" prefHeight="378.0" prefWidth="658.0">
+                            <items>
+                                <fx:include source="GestionInventario.fxml" />
+                            </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="tab_NotificacionInventarioUno" style="-fx-font-size: 14px;" text="Notificación Inventario 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane orientation="VERTICAL" prefHeight="378.0" prefWidth="658.0">
+                            <items>
+                                <fx:include source="InventarioUno.fxml" />
+                            </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="tab_NotificacionInventarioDos" style="-fx-font-size: 14px;" text="Notificación Inventario 1">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane orientation="VERTICAL" prefHeight="378.0" prefWidth="658.0">
+                            <items>
+                                <fx:include source="InventarioDos.fxml" />
+                            </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

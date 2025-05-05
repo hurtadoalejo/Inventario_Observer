@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.inventario.inventarioapp.viewController.GestionInventarioViewController">
+   <children>
+      <Button fx:id="btn_actualizarStock" layoutX="249.0" layoutY="223.0" mnemonicParsing="false" onAction="#onActualizarStock" prefHeight="37.0" prefWidth="161.0" text="Actualizar Stock">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="162.0" layoutY="124.0" text="Cambiar Stock:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_stock" layoutX="296.0" layoutY="118.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
