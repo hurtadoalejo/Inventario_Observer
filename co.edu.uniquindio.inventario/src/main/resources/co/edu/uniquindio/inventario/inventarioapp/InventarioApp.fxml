@@ -22,7 +22,7 @@
                   </AnchorPane>
             </content>
           </Tab>
-          <Tab fx:id="tab_NotificacionInventarioUno" style="-fx-font-size: 14px;" text="Notificación Inventario 1">
+          <Tab fx:id="tab_NotificacionInventarioUno" style="-fx-font-size: 14px;" text="Notificación Inventario Uno">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
@@ -35,7 +35,7 @@
                   </AnchorPane>
             </content>
           </Tab>
-            <Tab fx:id="tab_NotificacionInventarioDos" style="-fx-font-size: 14px;" text="Notificación Inventario 1">
+            <Tab fx:id="tab_NotificacionInventarioDos" style="-fx-font-size: 14px;" text="Notificación Inventario Dos">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
