@@ -1,11 +1,11 @@
 package co.edu.uniquindio.inventario.inventarioapp.model;
 
-import co.edu.uniquindio.inventario.inventarioapp.service.Observer;
+import co.edu.uniquindio.inventario.inventarioapp.service.InventarioObserver;
 
 import java.util.LinkedList;
 
 public class Producto {
-    private LinkedList<Observer> observers = new LinkedList<>();
+    private LinkedList<InventarioObserver> inventarioObservers = new LinkedList<>();
     private int stock;
 
     public int getStock() {
@@ -17,17 +17,17 @@ public class Producto {
         notificarObservadores();
     }
 
-    public void agregarObservador(Observer observer) {
-        observers.add(observer);
+    public void agregarObservador(InventarioObserver inventarioObserver) {
+        inventarioObservers.add(inventarioObserver);
     }
 
-    public void eliminarObservador(Observer observer) {
-        observers.remove(observer);
+    public void eliminarObservador(InventarioObserver inventarioObserver) {
+        inventarioObservers.remove(inventarioObserver);
     }
 
     private void notificarObservadores() {
-        for (Observer observer : observers) {
-            observer.actualizar(stock);
+        for (InventarioObserver inventarioObserver : inventarioObservers) {
+            inventarioObserver.actualizar(stock);
         }
     }
 }

@@ -7,12 +7,22 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.inventario.inventarioapp.viewController.NotificacionInventarioUnoViewController">
    <children>
-      <Label layoutX="230.0" layoutY="177.0" text="Stock Actual:">
+      <Label layoutX="275.0" layoutY="45.0" text="Stock Actual:">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label fx:id="lbl_stock" layoutX="337.0" layoutY="177.0">
+      <Label fx:id="lbl_stock" layoutX="382.0" layoutY="45.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="57.0" layoutY="95.0" prefHeight="11.0" prefWidth="544.0" />
+      <TextArea fx:id="txtArea" layoutX="57.0" layoutY="162.0" prefHeight="172.0" prefWidth="544.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <Label layoutX="268.0" layoutY="120.0" text="Historial Pagos">
          <font>
             <Font size="16.0" />
          </font>

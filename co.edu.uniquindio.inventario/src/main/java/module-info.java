@@ -1,6 +1,7 @@
 module co.edu.uniquindio.inventario.inventarioapp {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     opens co.edu.uniquindio.inventario.inventarioapp to javafx.fxml;

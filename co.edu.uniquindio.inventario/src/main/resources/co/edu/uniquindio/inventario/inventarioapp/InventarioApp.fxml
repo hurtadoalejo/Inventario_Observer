@@ -41,7 +41,7 @@
                      <children>
                         <SplitPane orientation="VERTICAL" prefHeight="378.0" prefWidth="658.0">
                             <items>
-                                <fx:include source="InventarioDos.fxml" />
+                                <fx:include source="InventarioUno.fxml" />
                             </items>
                         </SplitPane>
                      </children>
